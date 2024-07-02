@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Health Check API Collection">
+
+    <listeners>
+        <listener class-name="automation.listeners.ExtentApiListener"/>
+        <listener class-name="automation.listeners.ListenersReport"></listener>
+    </listeners>
+
+    <test name="Health Check API Collection">
+        <classes>
+            <class name="de.dg.endpoints.apiSuite.campaign.TestSuiteApiCampaignAssign"/>
+            <class name="de.dg.endpoints.apiSuite.campaign.TestSuiteApiCampaignDelete"/>
+            <class name="de.dg.endpoints.apiSuite.campaign.TestSuiteApiCampaignGet"/>
+        </classes>
+    </test>
+
+</suite>

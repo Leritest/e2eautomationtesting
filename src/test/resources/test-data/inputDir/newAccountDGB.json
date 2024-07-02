@@ -1,0 +1,175 @@
+{
+  "connectionOwnerAddress": {
+    "street": "Gezelinallee",
+    "zipCode": "51375",
+    "city": "Leverkusen",
+    "housenumber": 2,
+    "country": "DE",
+    "housenumberSuffix": "C",
+    "individual":{
+      "firstname":"Aleksandar",
+      "lastname":"StojanovConnectionOwner",
+      "companyName":"ASDGB123",
+      "birthday":"1980-01-01",
+      "salutation":"MR"
+    }
+  },
+  "customer": {
+    "customerType": "PK",
+    "taxNumber": null,
+    "phone": "+49 30 654322",
+    "mobile": "+49 176 20762356",
+    "individuals": [
+      {
+        "companyName": "InstallationCompany",
+        "salutation": "MR",
+        "birthday": "1981-01-11",
+        "firstname": "Aleksandar",
+        "lastname": "StojanovInstallation",
+        "salutationId": "100001"
+      }
+    ],
+    "email": "a.stojanov@extern.deutsche-glasfaser.de",
+    "companyAccount": null
+  },
+  "optin": {
+    "phone": false,
+    "email": true,
+    "trafficDataUsage": false,
+    "post": false,
+    "optinProvidedByCustomer": false
+  },
+  "contract": {
+    "connection": {
+      "street": "Am Bernesterfeld",
+      "floor": 0,
+      "city": "Glonn",
+      "zipCode": "85625",
+      "housenumber": 10,
+      "country": "DE",
+      "housenumberSuffix": "C",
+      "appartment": null
+    },
+    "saleChannel":"EMAIL",
+    "marketingChannel":"GG_NB",
+    "signatureDate": "2021-11-22",
+    "creationDate": "2021-12-19",
+    "partnerId": 10004,
+    "bookingId": "10004568711603115655",
+    "evnType": "REDUCED",
+    "telephoneNumbers": [
+      {
+        "number": "+49 30 654321",
+        "porting": {
+          "address": {
+            "street": "Wassenberger Straße",
+            "zipCode": "52525",
+            "city": "Heinsberg",
+            "housenumber": "31",
+            "country": "DE",
+            "housenumberSuffix": "A"
+          },
+          "individual": {
+            "salutationId": "100001",
+            "companyName": "Aleksandar Stojanov DGB ContractCompany",
+            "firstname": "Aleksandar",
+            "lastname": "StojanovContract",
+            "salutation": "MR"
+          },
+          "carrierId": 10002
+        },
+        "phonebook": null,
+        "type": "porting"
+      }
+    ],
+    "mainProduct":{
+      "id":10531,
+      "attributes":[
+
+      ],
+      "productInstances":[
+        {
+          "id":10224,
+          "attributes":[
+
+          ]
+        },
+        {
+          "id":10493,
+          "attributes":[
+
+          ]
+        },
+        {
+          "id":10218,
+          "attributes":[
+
+          ]
+        },
+        {
+          "id":10353,
+          "attributes":[
+
+          ]
+        },
+        {
+          "id":10219,
+          "attributes":[
+
+          ]
+        },
+        {
+          "id":10345,
+          "attributes":[
+
+          ]
+        },
+        {
+          "id":10551,
+          "attributes":[
+
+          ]
+        }
+      ]
+    }
+  },
+  "shippingAddress": {
+    "street": "Hochbrücker Straße",
+    "zipCode": "52525",
+    "city": "Heinsberg",
+    "individual": {
+      "salutationId": "100001",
+      "companyName": "ShippingCompany",
+      "birthday": "1982-02-12",
+      "firstname": "Aleksandar",
+      "lastname": "StojanovShipping",
+      "salutation": "MR"
+    },
+    "housenumber": 122,
+    "country": "DE",
+    "housenumberSuffix": "S"
+  },
+  "orderType": "LEAD",
+  "bankAccount": {
+    "accountHolder": "Aleksandar StojanovBankAccount",
+    "iban": "DE12500105170648489890"
+  },
+  "billingAddress": {
+    "street": "Bensumskamp",
+    "zipCode": "46569",
+    "city": "Hünxe",
+    "individual": {
+      "companyName": "BillingCompany",
+      "salutation": "MR",
+      "birthday": "1983-03-13",
+      "firstname": "Aleksandar",
+      "lastname": "StojanovBilling",
+      "salutationId": "100001"
+    },
+    "housenumber": "19",
+    "country": "DE",
+    "housenumberSuffix": "B"
+  },
+  "remark": "Vertragsunterschrift war der 21.01.2020 ........Neubau, Mehrkosten in Höhe von 465 €"
+
+}

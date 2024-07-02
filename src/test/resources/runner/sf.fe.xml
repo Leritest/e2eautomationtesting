@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Basic test pack test">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="automation.listeners.CustomListeners"/>
+        <listener class-name="automation.listeners.ExtentListeners"/>
+        <listener class-name="automation.listeners.AnnotationTransformer"/>
+        <listener class-name="automation.listeners.ListenersReport"/>
+    </listeners>
+
+    <test name="Login TestCases">
+        <classes>
+            <!-- ************************************* MasterData/AddressRole START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseAddNewContactRoleAndNewAddressDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseAddNewContactRoleAndNewAddressDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseAddNewContactRoleAndNewAddressNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseAddNewContactRoleAndExistingAddressDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseAddNewContactRoleAndExistingAddressDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseAddNewContactRoleAndExistingAddressNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleAndNewAddressDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleAndNewAddressDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleAndNewAddressNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleWithoutChangingAddressDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleWithoutChangingAddressDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleWithoutChangingAddressNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleAndExistingAddressDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleAndExistingAddressDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.addressRole.TestCaseChangeExistingContactRoleAndExistingAddressNew"/>
+            -->
+            <!-- ************************************* MasterData/AddressRole END ****************************************-->
+
+            <!-- ************************************* MasterData/Accounts START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseChangeCompanyNameDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseChangeCompanyNameDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseChangeCompanyNameNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseChangeOnlyCompanyNameDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseChangeOnlyCompanyNameDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseChangeOnlyCompanyNameNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseLastNameEmptyDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseLastNameEmptyDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.accounts.TestCaseLastNameEmptyNew"/>
+            -->
+            <!-- ************************************* MasterData/Accoutns END ****************************************-->
+
+            <!-- ************************************* FE/Contacts START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.contacts.TestCaseCreateNonCustomerContact"/>
+            <class name="de.dg.salesforce.fe.contacts.TestCaseEditNonCustomerContact"/>
+            <class name="de.dg.salesforce.fe.contacts.TestCaseEditStandardContactError"/>
+            -->
+            <!-- ************************************* FE/Contacts END ****************************************-->
+
+            <!-- ************************************* FE/Cases START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.cases.TestCaseCloseParentCaseAutomatically"/>
+            -->
+            <!-- ************************************* FE/Cases END ****************************************-->
+
+            <!-- ************************************* MasmnterData/Contact Name START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.masterdata.contactName.TestCaseNamensanderungWeitereKontakteDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactName.TestCaseNamensanderungWeitereKontakteDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactName.TestCaseNamensanderungWeitereKontakteNew"/>
+            -->
+            <!-- ************************************* MasterData/Contact Name END ****************************************-->
+
+            <!-- ************************************* MasterData/EVN START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.masterdata.evn.TestCaseBusinessAccountCanBeChangedDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.evn.TestCaseBusinessAccountCanBeChangedDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.evn.TestCaseBusinessAccountCanBeChangedNew"/>
+            -->
+            <!-- ************************************* MasterData/EVN END ****************************************-->
+
+            <!-- ************************************* MasterData/OptIns START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.masterdata.optIns.TestCaseChangeOptInsForLocalContactDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.optIns.TestCaseChangeOptInsForLocalContactDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.optIns.TestCaseChangeOptInsForLocalContactNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.optIns.TestCaseWithVoiceRecordingAndEmailForConnectionOwnerRoleDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.optIns.TestCaseWithVoiceRecordingAndEmailForConnectionOwnerRoleDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.optIns.TestCaseWithVoiceRecordingAndEmailForConnectionOwnerRoleNew"/>
+            -->
+            <!-- ************************************* MasterData/OptIns END ****************************************-->
+
+            <!-- ************************************* MasterData/Phonebook Entries START ****************************************-->
+
+            <!--<class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseCreateNewPhoneBookEntryDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseCreateNewPhoneBookEntryDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseCreateNewPhoneBookEntryNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseEditPhoneBookEntryDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseEditPhoneBookEntryDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseEditPhoneBookEntryNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseModifyPhoneBookInCimDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseModifyPhoneBookInCimDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.phonebookEntries.TestCaseModifyPhoneBookInCimNew"/>-->
+
+           <!-- ************************************* MasterData/Phonebook Entries END ****************************************-->
+
+            <!-- ************************************* MasterData/Auth. Rep. and Installation START ****************************************-->
+            <!--
+            -->
+            <!-- ************************************* MasterData/Auth. Rep. and Installation END ****************************************-->
+
+            <!-- ************************************* MasterData/Contact Data START ****************************************-->
+            <!--
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseCreateNewContactWithARoleDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseCreateNewContactWithARoleDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseCreateNewContactWithARoleNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseAssigningRolesToAContactDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseAssigningRolesToAContactDgh"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseAssigningRolesToAContactNew"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseDeactivateAContactWithoutRolesDgb"/>
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseDeactivateAContactWithoutRolesDgh"/>-->
+            <class name="de.dg.salesforce.fe.masterdata.contactData.TestCaseDeactivateAContactWithoutRolesNew"/>
+
+            <!-- ************************************* MasterData/Contact Data END ****************************************-->
+        </classes>
+    </test>
+
+</suite>
